@@ -12,18 +12,3 @@
 // and assign the return value to be the innerHTML value of the element with the id subtraction.
 // Test your function with the following value pairs: (1, 42), (200, 150),
 // (10, "50"), ("100", "400"), ("Ten", "One Hundred"), (null, 123);
-
-function subtraction(number1, number2) {
-  var convertedNumber1 = parseFloat(number1);
-  var convertedNumber2 = parseFloat(number2);
-
-  if (isNaN(convertedNumber1) || isNaN(convertedNumber2)) {
-    return "Invalid argument(s)";
-  } else {
-    var result = convertedNumber1 - convertedNumber2;
-    return result;
-  }
-}
-
-var container = document.querySelector("#subtraction");
-var result = container.innerHTML;
