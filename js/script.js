@@ -12,3 +12,5 @@
 // and assign the return value to be the innerHTML value of the element with the id subtraction.
 // Test your function with the following value pairs: (1, 42), (200, 150),
 // (10, "50"), ("100", "400"), ("Ten", "One Hundred"), (null, 123);
+
+function subtraction() {}
