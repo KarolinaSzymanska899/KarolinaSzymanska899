@@ -27,11 +27,3 @@ function subtraction(number1, number2) {
 
 var container = document.querySelector("#subtraction");
 var result = container.innerHTML;
-
-subtraction(5, 20);
-subtraction(1, 42);
-subtraction(200, 150);
-subtraction(10, "50");
-subtraction("100", "400");
-subtraction("Ten", "One Hundred");
-subtraction(null, 123);
